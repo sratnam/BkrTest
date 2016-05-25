@@ -1,0 +1,18 @@
+<job>
+    <whiteboard>
+    ext4 test
+    </whiteboard>
+    <recipeSet>
+        <recipe ks_meta="harness='restraint beakerlib'">
+            <distroRequires>
+                <distro_family op="=" value="Fedora23"/>
+                <distro_arch op="=" value="x86_64"/>
+            </distroRequires>
+            <hostRequires />
+        
+            <task>
+                <fetch url="https://github.com/sratnam/BkrTest"/>
+            </task>
+        </recipe>
+    </recipeSet>
+</job>
